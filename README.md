@@ -4,7 +4,7 @@ With the development of NoSQL, HBase gradually become the mainstream of the NoSQ
 Therefore, we decided to explore providing cross-row transactions, indexes, SQL function without sacrificing the linear expansion of capacity in the upper layer of the HBase by theoretical model MegaStore. The system provides simple user interface: SQL, the user can do not need to pay attention to the hbase schema design, greatly simplifies the user's data migration and learning costs. To see what's supported, go to our language reference guide, and read more on our [wiki](https://github.com/alexanderdai/wasp/wiki).
 
 #Mission#
-Become a nosql system as a storage engine, for example the hbase, standard distributed relational database.
+Become a standard distributed relational database,which's storage engine is nosql system, for example the hbase.
 
 #Note#
 Over a period of time, we will submit the code. Thank you for your attention.
